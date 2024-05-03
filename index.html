@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Table Example</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="jumbotron text-center bg-success text-white">
+				<p>Add Row to Table,Edit and Delete</p>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-right">
+					<input
+						type="button"
+						id="btnAdd"
+						class="btn btn-primary para"
+						value="+" />
+				</div>
+			</div>
+			<div class="row pt-3">
+				<div class="col-md-12 col-sm-12 col-12 p-2">
+					<table
+						id="tblData"
+						class="table table-bordered table-hover table-striped">
+						<thead>
+							<tr>
+								<th>First Name</th>
+								<th>Last Name</th>
+								<th>Email</th>
+								<th>Phone No</th>
+								<th>Address</th>
+								<th class="tdaction">Action</th>
+							</tr>
+						</thead>
+						<tbody></tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery-3.7.1.min.js"></script>
+		<script src="js/jquery.js"></script>
+	</body>
+</html>
